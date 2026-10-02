@@ -1,0 +1,27 @@
+Project Phoenix — Internal FAQ
+
+What is Project Phoenix?
+Project Phoenix is the internal initiative to migrate our customer data
+platform from the legacy on-premise servers to a cloud-based system by
+Q3 2027. The goal is to cut infrastructure costs by roughly 40% and
+improve system uptime to 99.9%.
+
+Who is leading the project?
+The project is led by the Platform Engineering team, with Sarah Chen as
+the technical lead and Marcus Reed as the product owner. Questions should
+be directed to the #phoenix channel on Slack.
+
+What is the timeline?
+Phase 1 (planning and architecture) runs January to March 2027.
+Phase 2 (migration and testing) runs April to July 2027.
+Phase 3 (rollout and decommissioning of old servers) completes by
+September 2027.
+
+Will there be downtime?
+Minimal. The migration is designed to be incremental, with no expected
+downtime during business hours. Any required maintenance will happen on
+weekends and be announced one week in advance.
+
+What happens to the old data?
+All legacy data will be archived for seven years in cold storage to meet
+compliance requirements, then permanently deleted.
